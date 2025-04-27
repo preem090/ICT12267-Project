@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านบ้านสวย - ของแต่งบ้านและเครื่องใช้ไฟฟ้า</title>
+    <meta name="description" content="ร้านขายของแต่งบ้านและเครื่องใช้ไฟฟ้า ครบวงจรในที่เดียว ราคาย่อมเยาว์ คุณภาพดี">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Prompt&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>ร้านบ้านสวย</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="home-decoration.html">ของแต่งบ้าน</a></li>
+                <li><a href="electrical-appliance.html">เครื่องใช้ไฟฟ้า</a></li>
+                <li><a href="#">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- แบนเนอร์ -->
+    <section class="banner">
+        <div class="banner-slider">
+            <div class="banner-slide">
+                <img src="https://s359.kapook.com/pagebuilder/360f2bcb-2e0c-437c-8fe2-26076e8ed957.jpg" alt="ภาพ 1">
+            </div>
+            <div class="banner-slide">
+                <img src="https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1441053559/p/photo/image/688256/B.Kislovskiy-8.jpg" alt="ภาพ 2">
+            </div>
+            <div class="banner-slide">
+                <img src="https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1473888293/p/photo/image/1649892/reginabraido_internavista01_rev00.jpg" alt="ภาพ 3">
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+
+    <section class="hero">
+        <h2>ยินดีต้อนรับสู่ร้านบ้านสวย</h2>
+        <p>ครบทุกไอเท็มแต่งบ้านและเครื่องใช้ไฟฟ้าในที่เดียว</p>
+    </section>
+
+    <section class="products">
+        <h2>สินค้าแนะนำ</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://www.ikea.com/th/th/images/products/svallet-work-lamp-dark-grey-white__0703502_pe724751_s5.jpg?f=xl" alt="โคมไฟตั้งโต๊ะ">
+                <h3>โคมไฟตั้งโต๊ะ</h3>
+                <p>ราคา: 599 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.nocnoc.com/assets-static/assets/portal-assets/367074/product/images/38860/mitsu-r18a-001-brown_667f836615f1c__1200x1200.jpg" alt="พัดลมตั้งพื้น">
+                <h3>พัดลมตั้งพื้น</h3>
+                <p>ราคา: 1,299 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.ikea.com/th/th/images/products/skogsduva-cushion-flower-shaped-white__1294173_pe935317_s5.jpg?f=xl" alt="หมอนอิงนุ่มสบาย">
+                <h3>หมอนอิงนุ่มสบาย</h3>
+                <p>ราคา: 299 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.ikea.com/th/th/images/products/pluttis-wall-clock-black__1013114_pe829054_s5.jpg?f=xl" alt="นาฬิกาแขวนผนัง">
+                <h3>นาฬิกาแขวนผนัง</h3>
+                <p>ราคา: 650 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.ikea.com/th/th/images/products/simrishamn-pendant-lamp-3-armed-chrome-plated-opal-white-glass__0793571_pe765399_s5.jpg?f=xl " alt="โคมไฟระย้า">
+                <h3>โคมไฟระย้า</h3>
+                <p>ราคา: 3,000 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <h2>เครื่องใช้ไฟฟ้า</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="index-imge/1.jpg" alt="เครื่องปิ้งขนมปัง">
+                <h3>เครื่องปิ้งขนมปัง</h3>
+                <p>ราคา: 799 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/2.jpg" alt="เครื่องดูดฝุ่น">
+                <h3>เครื่องดูดฝุ่น</h3>
+                <p>ราคา: 1,990 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/3.jpg" alt="ไมโครเวฟ">
+                <h3>ไมโครเวฟ</h3>
+                <p>ราคา: 2,590 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/4.jpg" alt="กาต้มน้ำไฟฟ้า">
+                <h3>กาต้มน้ำไฟฟ้า</h3>
+                <p>ราคา: 899 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/5.jpg" alt="เครื่องทำน้ำอุ่น">
+                <h3>เครื่องทำน้ำอุ่น</h3>
+                <p>ราคา: 3,200 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/6.jpg" alt="ตู้เย็น">
+                <h3>ตู้เย็น</h3>
+                <p>ราคา: 7,800 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/7.jpg" alt="เครื่องล้างจาน">
+                <h3>เครื่องล้างจาน</h3>
+                <p>ราคา: 5,500 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/8.jpg" alt="เครื่องชงกาแฟ">
+                <h3>เครื่องชงกาแฟ</h3>
+                <p>ราคา: 2,500 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/9.jpg" alt="ทีวี">
+                <h3>ทีวี</h3>
+                <p>ราคา: 15,000 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/10.jpg" alt="เครื่องปรับอากาศ">
+                <h3>เครื่องปรับอากาศ</h3>
+                <p>ราคา: 19,500 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+        </div>
+        <div class="view-more-container">
+            <a href="electrical-appliance.html" class="btn-view-more">ดูสินค้าเพิ่มเติม</a>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>ของแต่งบ้าน</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="index-imge/11.jpg" alt="แจกันเซรามิก">
+                <h3>แจกันเซรามิก</h3>
+                <p>ราคา: 350 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/12.jpg" alt="กรอบรูปติดผนัง">
+                <h3>กรอบรูปติดผนัง</h3>
+                <p>ราคา: 450 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/13.jpg" alt="เทียนหอมแต่งบ้าน">
+                <h3>เทียนหอมแต่งบ้าน</h3>
+                <p>ราคา: 250 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/14.jpg" alt="ผ้าม่านหน้าต่าง">
+                <h3>ผ้าม่านหน้าต่าง</h3>
+                <p>ราคา: 1,200 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/15.jpg" alt="ชั้นวางทีวี">
+                <h3>ชั้นวางทีวี</h3>
+                <p>ราคา: 2,500 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/16.jpg" alt="พรมเช็ดเท้า">
+                <h3>พรมเช็ดเท้า</h3>
+                <p>ราคา: 180 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/17.jpg" alt="กรอบกระจกแต่งบ้าน">
+                <h3>กรอบกระจกแต่งบ้าน</h3>
+                <p>ราคา: 1,000 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/18.jpg" alt="ปลอกหมอนอิง">
+                <h3>ปลอกหมอนอิง</h3>
+                <p>ราคา: 150 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/19.jpg" alt="กรอบรูปไม้สน">
+                <h3>กรอบรูปไม้สน</h3>
+                <p>ราคา: 500 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+            <div class="product-card">
+                <img src="index-imge/20.jpg" alt="ชุดโต๊ะเก้าอี้">
+                <h3>ชุดโต๊ะเก้าอี้</h3>
+                <p>ราคา: 8,000 บาท</p>
+                <button class="btn-detail">ดูรายละเอียด</button>
+                <button class="btn-buy">สั่งซื้อ</button>
+            </div>
+        </div>
+        <div class="view-more-container">
+            <a href="home-decoration.html" class="btn-view-more">ดูสินค้าเพิ่มเติม</a>
+        </div>
+    </section>
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <h2>✅ สั่งซื้อสำเร็จ!</h2>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 ร้านบ้านสวย. สงวนลิขสิทธิ์</p>
+    </footer>
+
+</body>
+
+</html>
