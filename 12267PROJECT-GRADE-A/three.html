@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>เครื่องดูดฝุ่น</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #8d6e63;
+      --primary-light: #be9c91;
+      --primary-dark: #5f4339;
+      --secondary-color: #a5d6a7;
+      --accent-color: #ffab91;
+      --text-color: #4e342e;
+      --light-bg: #f5f5f5;
+      --white: #ffffff;
+      --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Kanit', 'Prompt', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    .product-detail {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    .product-detail img {
+      width: 100%;
+      max-width: 450px;
+      object-fit: cover;
+      border-right: 1px solid #ddd;
+      background: var(--primary-light);
+    }
+
+    .product-info {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .product-info h1 {
+      font-size: 2rem;
+      margin: 0 0 1rem;
+      color: var(--primary-dark);
+    }
+
+    .product-info p {
+      margin-bottom: 1rem;
+    }
+
+    .price {
+      font-size: 1.8rem;
+      color: var(--accent-color);
+      margin: 1.5rem 0;
+      font-weight: 600;
+    }
+
+    .buttons {
+      margin-top: auto;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .buttons button,
+    .buttons a {
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-family: 'Kanit', sans-serif;
+      transition: var(--transition);
+      box-shadow: var(--shadow);
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .buy-button {
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+      font-weight: 600;
+    }
+
+    .buy-button:hover {
+      background-color: #81c784;
+      color: var(--white);
+      transform: translateY(-2px);
+    }
+
+    .back-button {
+      background-color: var(--primary-light);
+      color: var(--white);
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .back-button:hover {
+      background-color: var(--primary-color);
+      transform: translateY(-2px);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .product-detail {
+        flex-direction: column;
+        margin: 1rem;
+      }
+      .product-detail img {
+        width: 100%;
+        border-right: none;
+      }
+      .product-info {
+        padding: 1.5rem;
+      }
+      .buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="product-detail">
+    <img src="electrical-appliance/1.jpg" alt="เครื่องดูดฝุ่น">
+    <div class="product-info">
+      <h1>เครื่องดูดฝุ่น</h1>
+      <p>เครื่องดูดฝุ่นดีไซน์กะทัดรัด สีเทาเข้ม ทนทาน ใช้งานง่าย น้ำหนักเบา เหมาะสำหรับทำความสะอาดบ้าน คอนโด หรือออฟฟิศขนาดเล็ก</p>
+      <p>มาพร้อมหัวดูดหลายแบบ ปรับได้ตามพื้นผิว เช่น พรม ไม้ กระเบื้อง มีระบบกรองฝุ่นละเอียดเพื่ออากาศที่สะอาดยิ่งขึ้น</p>
+      <p>กำลังไฟ 1400 วัตต์ พร้อมถุงเก็บฝุ่นขนาดใหญ่ ใช้งานได้นานโดยไม่ต้องเปลี่ยนบ่อย</p>
+      <p class="price">12,490 บาท</p>
+      <div class="buttons">
+        <button class="buy-button" onclick="alert('✅ สั่งซื้อเครื่องดูดฝุ่นสำเร็จ!')">สั่งซื้อ</button>
+        <a href="index.html" class="back-button">กลับหน้าหลัก</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
